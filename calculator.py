@@ -46,8 +46,8 @@ class HUCalculator:
         self.eN = sum(self.eis)
 
         self.Ns.append(self.n)
-        self.eNs.append(self.uN)
-        self.uNs.append(self.eN)
+        self.eNs.append(self.eN)
+        self.uNs.append(self.uN)
 
         self.xs.append(self.x)
         self.ys.append(self.y)
